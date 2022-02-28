@@ -1,4 +1,4 @@
-This is pre-enrollment project from Microverse to practice and master the basic of HTML and CSS. In this project repository, I designed a clone YouTube video page.
+This is pre-enrollment project from Microverse to practice and master the basics of HTML and CSS. In this project repository, I designed a clone YouTube video page.
 
 ## Built with
 - HTML
