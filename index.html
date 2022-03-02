@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,14 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YouTube</title>
   <link rel="stylesheet" type="text/css" href="./bluepot.css">
-  <link rel="icon" type="favicon" href="./youtube-icon.jpg">
+  <link rel="icon" type="favicon" href="./images/yout-icon.jpg">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet' />
+
 </head>
 <body>
+           <!--Navigation bar-->
+
     <header>
       <div class="logo left">
         <i id="menu" class="material-icons">menu</i>
-        <img src="./yt-logo.png">
+        <img src="./images/yt-logo.png">
       </div>
       
       <div class="search center">
@@ -30,22 +34,291 @@
         <i class="material-icons">notifications</i>
         <i class="material-icons display-this">account_circle</i>
       </div>
-    </header>
+  </header>
 
-      <main>
-        <div class="column-left">
-
-
-        
-        <div class="yt-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/tENJhl7cW2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="movie"></iframe>
+          <!--Main Body-->
+      <section class="left-section">
+        <article class="youtube-cont">
+          <div class="yt-video">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/tENJhl7cW2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="movie"></iframe>
         </div>
-      </div>
+        <h1 class="main-video-title">
+          Most Amazing Skyscrapers in the World!
+        </h1>
+
+        <div class="more-info-cont">
+          <span class="views">4,568,779 views <span class="date">• Feb 21, 2022</span></span>
+
+          <div class="symbols">
+            <i class="material-icons">thumb_up</i>
+            <span>900k</span>
+          </div>
+
+          <div class="symbols">
+            <i class="material-icons">thumb_down</i>
+            <span>DISLIKE</span>
+          </div>
+
+          <div class="symbols">
+            <i class="material-icons">share</i>
+            <span>SHARE</span>
+          </div>
+
+          <div class="symbols">
+            <i class="material-icons">save</i>
+            <span>SAVE</span>
+          </div>
+
+          <button class="action-button">
+            <i class='bx bx-dots-horizontal-rounded'></i>
+          </button>
+        </article>
+            <hr>
+
+          <!--Video Description and Subscribe section-->
+            <article class="Description-sect">
+              <div class="subscribe-div">
+
+                <div class="author-div">
+                  <img src="./images/writer's-id.jpg" class="author-image">
+    
+                  <div class="author">
+                    <a href="#"><h3>Origin Explainedd</h3></a>
+                    <p>3.51K subscribers</p>
+                  </div>
+                </div>
+    
+                <button class="subscribe">SUBSCRIBE</button>
+              </div>
+
+              <div class="description-content">
+                <p>Check out the tallest, most amazing, and unusual skyscrapers in the world! These are some of the highest buildings on earth!</p>
+
+                <a href="" class="more"><b>SHOW MORE</b></a>
+              </div>
+            </article>
+          </section>
+
+          <!-- Comments section -->
+      <section class="comments-section">
+        <div class="top-section">
+          <div class="total-comments">
+            <span>969</span>
+            <span>Comments</span>
+          </div>
+
+          <button class="sort-by">
+            <i class='bx bx-sort-down sort-icon'></i>
+            <span>SORT BY</span>
+          </button>
+        </div>
+
+        <div class="comment-input-div">
+          <img src="./images/unnamed.jpg" class="user-icons" />
+          <input
+            type="text"
+            name="comment"
+            id="comment"
+            placeholder="Add a public comment..."
+          />
+        </div>
+
+        <section class="users-comment-section">
+          <div class="comment">
+            <a href="#"><div class="user-icons user-icon1"><span>N</span></div></a>
+            
+            <div class="user">
+              <a href="#"><span class="user-name">Origins Explained</span></a>
+              <span class="comment-text">Hola!! This video is now available in Spanish if you want to practice!! Este video ya esta disponible en español!!! https://youtu.be/t2ql_TcE9cE</span>
+              
+              <div class="user-comments-buttons">
+                <button><i class='bx bx-like icon'></i></button>
+
+                <span class="like">453</span>
+
+                <button><i class='bx bx-dislike icon'></i></button>
+                <button><span class="reply">REPLY</span></button>
+              </div>
+
+              <button class="view-replies">
+                <i class='bx bx-caret-down reply-icon'></i>
+                <span>View 50 more replies</span>
+              </button>
+            </div>
+          </div>
 
 
-      </main>
+          <div class="comment">
+            <a href="#"><div class="user-icons user-icon1"><span>P</span></div></a>
+            
+            <div class="user">
+              <a href="#"><span class="user-name">Pabilto's way</span></a>
+              <span class="comment-text">The people that climb these.....whew!s</span>
+              
+              <div class="user-comments-buttons">
+                <button><i class='bx bx-like icon'></i></button>
+
+                <span class="like">567</span>
+
+                <button><i class='bx bx-dislike icon'></i></button>
+                <button><span class="reply">REPLY</span></button>
+              </div>
+
+              <button class="view-replies">
+                <i class='bx bx-caret-down reply-icon'></i>
+                <span>View 26 more replies</span>
+              </button>
+            </div>
+          </div>
 
 
+          <div class="comment">
+            <a href="#"><div class="user-icons user-icon3"><span>E</span></div></a>
+
+            <div class="user">
+              <a href="#"><span class="user-name">Eli M</span></a>
+              <span class="comment-text">Love the video, the creative minds of the Architects. I'm an Architect lover and I think that it's amazing how far Architecture has come to be. Would there be buildings on space one day?</span>
+
+              <div class="user-comments-buttons">
+                <button><i class='bx bx-like icon'></i></button>
+                <span class="like">18</span>
+
+                <button><i class='bx bx-dislike icon'></i></button>
+                <button><span class="reply">REPLY</span></button>
+              </div>
+
+              <button class="view-replies">
+                <i class='bx bx-caret-down reply-icon'></i>
+                <span>View 13 more replies</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      
+      
+
+               <!--Right section-->
+               <aside class="right-sect">
+                 <section class="more=videos">
+                  <button class="chat-button">SHOW CHAT REPLAY</button>
+
+                  <ul class="button-label-cont">
+                    <li><button class="button-label" id="selected-item">All</button></li>
+                    <li><button class="button-label">Synthwave</button></li>
+                    <li><button class="button-label">Related</button></li>
+                    <li><button><i class='bx bx-chevron-right chevron-icon'></i></button></li>
+                  </ul>
+                </section>
+        
+        
+                <!-- Recommended videos section -->
+                <section class="recommended-videos-section">
+                  <article class="recommended-video">
+                    <div class="miniature">
+                      <img src="./images/skys1.jpg" alt="youtube thumbnail" />
+                    </div>
+                    
+                    <div class="video-info">
+                      <a href="#"><h3 class="miniature-title">15 Tallest Buidings in the world</h3></a>
+        
+                      <a href="#"><p class="miniature-info">MINDS EYE DESIGN</p></a>
+                      <p class="miniature-info">854K views • <span class="miniature-info">1 Month ago</span></p>
+                    </div>
+                  </article>
+                  
+                  <article class="recommended-video">
+                    <div class="miniature">
+                      <img src="./images/skys2.jpg" alt="Thumbnail-2" />
+                    </div>
+        
+                    <div class="video-info">
+                      <a href="#"><h3 class="miniature-title">Biggest Megaprojects in the world</h3></a>
+        
+                      <a href="#"><p class="miniature-info">Top Luxury</p></a>
+                      <p class="miniature-info">1.3M views • <span class="miniature-info">Feb 6, 2020</span></p>
+                    </div>
+                  </article>
+        
+                  <article class="recommended-video">
+                    <div class="miniature">
+                      <img src="./images/skys3.jpg" alt="Thumbnail-3" />
+                    </div>
+        
+                    <div class="video-info">
+                      <a href="#"><h3 class="miniature-title">15 Most Amazing Mega Projects og Dubia</h3></a>
+        
+                      <a href="#"><p class="miniature-info">The finest</p></a>
+                      <p class="miniature-info">1.6M views • <span class="miniature-info">Dec 22, 2019</span></p>
+                    </div>
+                  </article>
+        
+                  <article class="recommended-video">
+                    <div class="miniature">
+                      <img src="./images/skys4.jpg" alt="thumbnail-4" />
+                    </div>
+        
+                    <div class="video-info">
+                      <a href="#"><h3 class="miniature-title">Most Incredible Upcoming New York City Skyscrapers | Luxury</h3></a>
+        
+                      <a href="#"><p class="miniature-info">skeler</p></a>
+                      <p class="miniature-info">156K views • <span class="miniature-info">Sept 22, 2021</span></p>
+                    </div>
+                  </article>
+        
+                  <article class="recommended-video">
+                    <div class="miniature">
+                      <img src="./images/skys5.jpg" alt="thumbnail-5" />
+                    </div>
+                    
+                    <div class="video-info">
+                      <a href="#"><h3 class="miniature-title">Dynamic Tower/Rotating Tower of Dubia)</h3></a>
+        
+                      <a href="#"><p class="miniature-info">Top Fives</p></a>
+                      <p class="miniature-info">3,513,570 views • <span class="miniature-info">Aug 25, 2020</span></p>
+                    </div>
+                  </article>
+        
+                  <article class="recommended-video">
+                    <div class="miniature">
+                      <img src="./images/skys6.jpg" alt="thumbnail-6" />
+                    </div>
+                    
+                    
+                    <div class="video-info">
+                      <a href="#"><h3 class="miniature-title">20 Cities with most SKYSCRAPERS in the World</h3></a>
+        
+                      <a href="#"><p class="miniature-info">Future Cities</p></a>
+                      <p class="miniature-info">958,101 views • <span class="miniature-info">Aug 1, 2018</span></p>
+                    </div>
+                  </article>
+        
+                  <article class="recommended-video">
+                    <img src="./images/skys7.jpg" alt="thumbnail-7" class="miniature" />
+        
+                    <div class="video-info">
+                      <a href="#"><h3 class="miniature-title">Green Cities of the Future</h3></a>
+        
+                      <a href="#"><p class="miniature-info">Odysseus</p></a>
+                      <p class="miniature-info">1,050,686 views • <span class="miniature-info">Nov 1, 2020</span></p>
+                    </div>
+                  </article>
+        
+                  <article class="recommended-video">
+                    <img src="./images/skys8.jpg" alt="thumbnail-8" />
+        
+                    <div class="video-info">
+                      <a href="#"><h3 class="miniature-title">Most Mysterious lost worlds</h3></a>
+        
+                      <a href="#"><p class="miniature-info">The Thanatos</p></a>
+                      <p class="miniature-info">289,334 views • <span class="miniature-info">Jan 28, 2019</span></p>
+                    </div>
+                  </article>
+                </section>
+               </aside>
+                 </section>
+                 
+
+               </aside>
 
 </body>
 </html>
